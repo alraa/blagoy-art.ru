@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="format-detection" content="telephone=no">	
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">	
 	<title>blagoy art - main</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />			
 </head>
@@ -17,19 +18,62 @@
 
 	<header>
 		<div class="wrapper">
+			<div class="line-header-mobile show-mobile mobile-nav-js">
+				<ul class="list-mobile-nav">
+					<li class="list-mobile-nav__item">
+						<a href="#" class="list-mobile-nav__link link-js">
+							<span class="icon-nav icon-nav-1">
+								<span></span>
+								<span></span>
+								<span></span>
+							</span>
+						</a>
+					</li>
+					<li class="list-mobile-nav__item">
+						<a href="#" class="list-mobile-nav__link">
+							<span class="icon-nav icon-nav-2"></span>
+						</a>
+					</li>
+					<li class="list-mobile-nav__item">
+						<a href="#" class="list-mobile-nav__link link-js">
+							<span class="icon-nav icon-nav-3"></span>
+						</a>
+					</li>
+					<li class="list-mobile-nav__item">
+						<a href="#" class="list-mobile-nav__link link-js">
+							<span class="icon-nav icon-nav-4"></span>
+						</a>
+					</li>
+					<li class="list-mobile-nav__item">
+						<a href="#" class="list-mobile-nav__link link-js">
+							<span class="icon-nav icon-nav-5"></span>
+						</a>
+					</li>
+					<li class="list-mobile-nav__item">
+						<a href="#" class="list-mobile-nav__link link-js">
+							<span class="icon-nav icon-nav-6"></span>
+						</a>
+					</li>
+				</ul>
+				<div class="mobile-block-open">
+					<div class="mobile-block-open-cont">
+						<a href="#" class="close-mobile-block"></a>
+					</div>
+				</div>
+			</div>
 			<div class="header-top">
 				<div class="wrapper-inside">
 					<div class="logo">
 						<a href="#"><img src="img/logo.png" alt=""><span class="slogan">Интернет-магазин «Благой арт»</span></a>
 					</div>
-					<div class="header-contact-inf">
+					<div class="header-contact-inf hide-mobile">
 						<a href="tel:+78007078139" class="header-tel">+7 (800) 707-81-39</a>
 						<div class="time-work">
 							ПН-ПТ с 9:00 до 18:00
 							<span class="time-work_delivery">Доставка по РФ и СНГ</span>
 						</div>
 					</div>
-					<div class="box-search">
+					<div class="box-search hide-mobile">
 						<form action="/">
 							<div class="input-field">
 								<input type="search" class="form-control" placeholder="Введите название или артикул">
@@ -39,7 +83,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="box-nav">
+			<div class="box-nav hide-mobile">
 				<div class="wrapper-inside">
 					<ul class="nav-list">
 						<li class="nav-list__item with-subnav">
@@ -1243,7 +1287,7 @@
 					<div class="box-link"><a href="#" class="link">Перейти в «Комплекты»</a></div>
 				</div>
 			</section>
-			<section class="box-new-products">
+			<section class="box-new-products hide-mobile">
 				<h2>Самые свежие поступления на Blagoy-art</h2>
 				<ul class="list-product without-prev">
 					<li class="list-product__item">
@@ -1489,7 +1533,7 @@
 							<form>
 								<div class="form-subscription">
 									<input type="text" class="form-subscription__input" placeholder="Ваш e-mail">
-									<input type="submit" class="button button_blue" value="подписаться">
+									<button type="submit" class="button button_blue"><span class="hide-ipad">подписаться</span><span class="show-ipad"><span class="icon-subscription-ipad"></span></span></button>
 								</div>
 							</form>							
 						</div>
@@ -1519,13 +1563,13 @@
                     </div>
 					
 				</div>
-				<div class="bottom-inf-col">					
+				<div class="bottom-inf-col hide-ipad">					
 					<div class="bottom-inf__title">Лучшая бижутерия<br> по оптовым ценам</div>
 					<p>Во все времена и во всех культурах мира женщина создавала себя сама, стремясь к идеалу красоты. Развивалась бы эстетика без этого неутолимого стремления к совершенству? Украшениям всегда отводилось особое место в неуемном потоке женственности. И бижутерия, среди всех видов украшений, занимает важную роль. Качественно созданные аксессуары - это элемент роскоши, который доступен каждому, а с появлением дизайнерских коллекций бижутерия становится еще и произведением искусства.</p>
 					<p>В желании помочь женщине стать еще краше, а вашему делу процветать, наш интернет-магазин бижутерии «Blagoy Art» взял за правило быть лидером качества.</p>
 					<p>Обратите внимание на то, что наша коллекция украшений постоянно обновляется. В ассортименте всегда присутствуют хиты продаж, например, свадебные диадемы, жемчужные ожерелья, креативные колье, разнообразные заколки для волос, а также шпильки, украшенные стразами гребешки, яркие тропиканки и это далеко не все!</p>
 				</div>
-				<div class="bottom-inf-col">
+				<div class="bottom-inf-col hide-mobile">
 					<div class="bottom-inf__title">Последние отзывы<br> наших покупателей</div>
 					<div class="title-review">
 						<ul class="list-social">
@@ -1587,12 +1631,12 @@
 			</div>
 			<div class="footer-bottom">
 				<div class="wrapper-inside">
-					<div class="copy">© 2008-2016  «Blagoy Art» – бижутерия оптом</div>
 					<ul class="footer-nav">
 						<li class="footer-nav__item"><a href="#" class="footer-nav__link">О КОМПАНИИ</a></li>
 						<li class="footer-nav__item"><a href="#" class="footer-nav__link">МОДА И СТИЛЬ   </a></li>
 						<li class="footer-nav__item"><a href="#" class="footer-nav__link">ВОПРОСЫ И ОТВЕТЫ</a></li>
 					</ul>
+					<div class="copy">© 2008-2016  «Blagoy Art» – бижутерия оптом</div>					
 				</div>
 			</div>
 		</div>

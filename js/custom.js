@@ -93,6 +93,25 @@ $(function(){
  
 	/* product list */
 	
+	/* mobile header */
+	$('.link-js').click(function(){
+		$(this).parents('.mobile-nav-js').find('.tab-nav').addClass('hide-tab');
+		$(this).parent().siblings().removeClass('active');
+		var id = $(this).attr('href');
+		$(id).removeClass('hide-tab');
+		$(this).parent().addClass('active'); 
+		$('.mobile-block-open').addClass('visible-cont'); 
+		$('html').addClass('opened-nav');
+		return false;
+	}); 
+	$('.close-mobile-block').click(function(){		
+		$('.list-mobile-nav__item').removeClass('active');
+		$('.mobile-block-open').removeClass('visible-cont'); 
+		$('html').removeClass('opened-nav');
+		return false;
+	}); 
+	/* mobile header */
+	
 
 });
 
