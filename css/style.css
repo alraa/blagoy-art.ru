@@ -365,6 +365,7 @@ header{
 	left: 0px; top: 100%;
 	z-index: 10;
 	width: 245px;
+	text-align: left;
 }
 .subnav .subnav{
 	position: absolute;
