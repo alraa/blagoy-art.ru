@@ -110,6 +110,12 @@ $(function(){
 		$('html').removeClass('opened-nav');
 		return false;
 	}); 
+	$('.cont-mask').click(function(){		
+		$('.list-mobile-nav__item').removeClass('active');
+		$('.mobile-block-open').removeClass('visible-cont'); 
+		$('html').removeClass('opened-nav');
+		return false;
+	}); 
 	/* mobile header */
 	
 
