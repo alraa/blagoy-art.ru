@@ -823,9 +823,17 @@ h3{font-size:26px;line-height:29px;}
 p{font-size:15px;line-height:23px;}
 .how-we-work__text{font-size:17px;line-height:20px;}
 }
+
+@media screen and (min-width:992px) and (max-width:1206px){
+	.box-steps .button{ min-width: 158px; width: auto; padding-left: 15px; padding-right: 15px;}
+}
+@media screen and (min-width:992px) and (max-width:1106px){
+	.box-steps .button{ min-width: 138px; font-size: 12px; padding-left: 10px; padding-right: 10px; height: 40px; padding-top: 8px;}
+}
 @media screen and (max-width:1160px){.form-login{width:50%;max-width:50%;padding:24px 5% 0 0;margin-left:0px!important;margin-right:-5px;}
  .form-login_reg{padding-left:5%;padding-right:0px;margin-left:0px;}
  .button_left{width:215px;}
+	.list-product__item{ width: calc(100% / 4 - 23px)}
 }
 @media screen and (max-width:1135px){.box-basket{position:absolute;right:0px;top:-40px;}
 footer .box-basket{display:none;}
@@ -839,6 +847,7 @@ h3{font-size:22px;line-height:26px;}
 .main-categories__inf p{font-size:15px;line-height:22px;}
 .main-categories__inf{margin-left:8%;margin-right:8%;padding-left:15px;padding-right:15px;}
 .bottom-inf{padding-bottom:20px;}
+	.list-product_catalog .list-product__item{ width: calc(100% / 3 - 23px)}
 }
 .show-ipad{display:none;}
 @media screen and (min-width:768px) and (max-width:991px){aside{width:150px;padding-top:20px;}
